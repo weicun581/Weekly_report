@@ -12,7 +12,7 @@ typedef struct{
 	short	zdiff_upbnd;
 	short	zdiff_stepbit;
 	short	zigsftbit_reg;
-	short	texture_enable;
+	short	texture_enable;   aaa
 	short	tex_upbnd;
 	short	tex_stepbit;
 	short	lpf_mode;
