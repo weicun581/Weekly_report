@@ -1,0 +1,10 @@
+mount -t cifs -o username=jimmy_wei,password=Suzhou2010 //172.29.52.206/epk
+
+
+env set ethaddr 00:10:20:30:40:57 
+env set ipaddr 172.29.50.57 
+env set gatewayip 172.29.50.254 
+env set netmask 255.255.255.0 
+env set serverip 172.29.52.133 
+env save 
+ping 172.29.52.133 
